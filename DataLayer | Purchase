@@ -1,0 +1,141 @@
+
+Page Path // checkout/finalization
+
+{
+  event: "purchase",
+  gtm: {uniqueEventId: 10, start: 1741784109461},
+  pageCategory: "orderPlaced",
+  order: {
+    id: 132385061,
+    token: "Z2NwLXVzLWVhc3QxOjAxSlAwQU5YMERFRERWRzhSNlBORTZORVQw",
+    payment_method: "billet",
+    coupon: "",
+    number: "1179585496914765",
+    total: 359.1,
+    total_without_taxes: 359.1,
+    total_without_shipping: 359.1,
+    customer_id: 224531722,
+    customer: {
+      id: 224531722,
+      first_name: "João", // Precisa tratar para a meta tirando os caracteres especiais e colocando minúscula
+      last_name: "Guimarães", // Precisa tratar para a meta tirando os caracteres especiais e colocando minúscula
+      document: "74462954653",
+      document_type: "CPF",
+      birthday: null,
+      phone_number: "5535983939036",
+      wallet_balance: 0,
+      full_name: "João Guimarães",
+      email: "ritaisabellafarias@optovac.com.br" // Precisa tratar para a meta deixando minúscula
+    },
+    authorized: 0,
+    optionsIds: ["9492889403672", "9676097814808"],
+    skusIds: ["244360508", "263937939"],
+    status: "waiting_payment",
+    prices: {total: 359.1},
+    address_info: {
+      hashed_first_name: "c5420b43786b20f6cd116002a483b128e9d24020852" +
+                         "c5e1c53731e25f40217f0",
+      hashed_last_name: "21b6ef53dde23320715ff84f1d91b978e48f19f9109f" +
+                        "bff43d5af61da2678a9d",
+      hashed_street_address: "4fe17aa49e8d27cd90c6ea994697d9e0218c117" +
+                             "f92c0e2d2c47bbbca3f2695b7",
+      city: "São Paulo", // Precisa tratar para a meta tirando os caracteres especiais e os espaços
+      state: "SP", // Precisa tratar para a meta deixando minúscula
+      postal_code: "37130974", // Precisa tratar para a meta deixando apenas os 5 primeiros números
+      country_code: "BR" // Precisa tratar para a meta deixando minúscula
+    },
+    items: [
+      {
+        product: {
+          id: "49126212075800",
+          sku: "14:200013900;200000124:150#24-25",
+          price: 129,
+          brand: "Árvore Mágica Kids",
+          categories: [
+            "Página inicial",
+            "Pantufas",
+            "Pantufas Menina",
+            "Todos",
+            "Pantufas e Slipper Menina",
+            "Sandálias, Pantufas e Slipper"
+          ],
+          image_url: "https://cdn.shopify.com/s/files/1/0892/6717/570" +
+                     "4/files/S6b3f63fc39284209ae58fb07faf122bcG_500x" +
+                     "500.webp",
+          metadata: []
+        },
+        quantity: 1,
+        name: "Pantufa Nuvem Coelhinho",
+        product_id: 36340031,
+        categories_names: [
+          "Página inicial",
+          "Pantufas",
+          "Pantufas Menina",
+          "Todos",
+          "Pantufas e Slipper Menina",
+          "Sandálias, Pantufas e Slipper"
+        ]
+      },
+      {
+        product: {
+          id: "49829745131800",
+          sku: "14:771#Barbie;200000124:698#27 insole 17",
+          price: 249,
+          brand: " Árvore Mágica Kids",
+          categories: ["Página inicial", "Tênis Menina", "Novidades"],
+          image_url: "https://cdn.shopify.com/s/files/1/0892/6717/570" +
+                     "4/files/Sb27d0958be3c41d0ac415a84ea01d334T_500x" +
+                     "500.webp",
+          metadata: []
+        },
+        quantity: 1,
+        name: "Tênis Infantil Barbie Fashion",
+        product_id: 39467674,
+        categories_names: [
+          "Página inicial",
+          "Tênis Menina",
+          "Novidades"
+        ]
+      }
+    ]
+  },
+  orderConversionValue: 359.1,
+  purchasedSkus: [
+    "14:200013900;200000124:150#24-25",
+    "14:771#Barbie;200000124:698#27 insole 17"
+  ],
+  purchasedSkusText: "14:200013900;200000124:150#24-25,14:771#Barbie;" +
+                     "200000124:698#27 insole 17",
+  orderId: 132385061,
+  eventModel: {
+    currency: "BRL",
+    transaction_id: "1179585496914765",
+    value: 359.1,
+    coupon: "",
+    shipping: "0.00",
+    items: [
+      {
+        item_id: "49126212075800",
+        item_name: "Pantufa Nuvem Coelhinho",
+        item_brand: "Árvore Mágica Kids",
+        price: 129,
+        quantity: 1,
+        item_category: "Página inicial",
+        item_category2: "Pantufas",
+        item_category3: "Pantufas Menina",
+        item_category4: "Todos",
+        item_category5: "Pantufas e Slipper Menina"
+      },
+      {
+        item_id: "49829745131800",
+        item_name: "Tênis Infantil Barbie Fashion",
+        item_brand: " Árvore Mágica Kids",
+        price: 249,
+        quantity: 1,
+        item_category: "Página inicial",
+        item_category2: "Tênis Menina",
+        item_category3: "Novidades"
+      }
+    ]
+  }
+}
